@@ -1,10 +1,55 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body {
     max-width: 500px;
     margin: auto;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.logo {
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.image-person {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.profile {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn {
+    margin: 15px 0;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+#linkedin {
+    padding: 0 5px;
+}
+
+#instagram {
+    padding: 0 5px;
+}
+
+#twitter {
+    padding: 0 5px;
+}
+
+#facebook {
+    padding: 0 5px;
 }
